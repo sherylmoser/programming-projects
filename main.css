@@ -1,0 +1,53 @@
+
+body {
+    background: #020a52 url(space.png) no-repeat fixed;
+    text-align: center;
+    margin: none;
+    background-size: cover;
+    color: #ffffff;
+}
+h1 {
+    font-family: "Brush Script MT", Garamond, serif;
+    font-size: 75px;
+}
+h2 {
+    font-family: 'Lucida Sans', Verdana, sans-serif;
+    font-size: 32px
+}
+.page-links {
+    background-color: #066d9c;
+    margin: -8px;
+    padding: 4px;
+}
+.page-links ul li {
+    display: inline;
+    font-size: 18px;
+    padding: 0 10px 0 10px;    
+}
+a {
+    color: #dfe0eb;
+}
+a:hover {
+    color: #24bdd1;
+}
+.title {
+    padding-top: 65px;
+}
+.subject {
+    font-size: 28px;
+    padding-top: 15px;
+}
+.favorite-things li{
+    list-style-type: none;
+    font-size: 20px;
+    line-height: 25px;
+}
+ol {
+    text-align: left;
+    font-size: 20px;
+    margin: 0 auto 0 auto;
+    width:500px
+}
+p {
+    font-size: 20px;
+}

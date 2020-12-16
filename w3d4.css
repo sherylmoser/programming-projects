@@ -1,0 +1,53 @@
+html, body, div, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: lightyellow;
+    font-family: "Abel", sans-serif;
+}
+.nav {
+    background-color: goldenrod;
+    height: 25px;
+    color: white;
+    padding: 15px;
+}
+.navTitle {
+    float: left;
+}
+.navLinks{
+    float: right;
+}
+.navLinks ul li {
+    list-style-type: none;
+    display: inline;
+    padding-left: 15px;
+}
+.dash, .budget, .check, .money {
+    width: 225px;
+    background-color: white;
+    border: 2px solid goldenrod;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 50px 5px; 
+}
+.container {
+    text-align: center;
+}
+h2 {
+    text-align: left;
+    margin: 10px;
+}
+p {
+    text-align: left;
+    margin-bottom: 10px;
+    margin-left: 25px;
+}
+button {
+    background-color: goldenrod;
+    color: white;
+    border: none;
+    margin: 5px;
+    width: 90%;
+    border-radius: 5px;
+}

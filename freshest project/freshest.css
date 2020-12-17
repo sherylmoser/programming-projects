@@ -1,0 +1,114 @@
+html, body, div, p, h1, h2, h3, ul, li, img {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: black;
+    color: white;
+}
+.mainphoto {
+    height: 600px;
+    background-image: url(HTMLProjectAssets/green-vegetables-on-brown-wooden-chopping-board-3952047.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav {
+    position: absolute;
+    top: 30px;
+    width: 90%;
+    border-bottom: 1px solid white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Open Sans Condensed", sans-serif;
+    font-size: 1.3em;
+    
+}
+.navLinks ul li {
+    list-style-type: none;
+    display: inline;
+    padding-left: 15px;
+}
+.navLinks a {
+    color: white;
+    text-decoration: none;
+}
+.mainTitle {
+    text-align: center;
+}
+.mainTitle h1 {
+    font-family: "Roboto", sans-serif;
+    font-size: 5em;
+    padding-bottom: 15px;
+    border-bottom: 1px solid white;
+}
+.mainTitle h2 {
+    font-family: "Open Sans Condensed", sans-serif;
+    font-size: 2.5em;
+    padding-top: 15px;
+}
+img {
+    height: 300px;
+    width: 350px;
+}
+.bread {
+    display: flex;
+    align-items: center;
+}
+.breadphoto {
+    height: 350px;
+    width: 40%;
+    background-image: url(HTMLProjectAssets/human-holding-a-bread-745988.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.breadtext {
+    padding: 0 100px 0 100px;
+    font-family: "Dosis", sans-serif;
+}
+.breadtext h3 {
+    font-size: 2em;
+    padding-bottom: 25px;
+}
+.pineapple {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+.pineapplephoto {
+    height: 350px;
+    width: 40%;
+    background-image: url(HTMLProjectAssets/green-pineapple-fruit-with-brown-framed-sunglasses-beside-1161547.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.pineappletext {
+    padding: 0 100px 0 100px;
+    font-family: "Dosis", sans-serif;
+}
+.pineappletext h3 {
+    font-size: 2em;
+    padding-bottom: 25px;
+}
+.pasta {
+    display: flex;
+    align-items: center;
+}
+.pastaphoto {
+    height: 350px;
+    width: 40%;
+    background-image: url(HTMLProjectAssets/cooked-pasta-on-brown-wooden-bowl-803963.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.pastatext {
+    padding: 0 100px 0 100px;
+    font-family: "Dosis", sans-serif;
+}
+.pastatext h3 {
+    font-size: 2em;
+    padding-bottom: 25px;
+}

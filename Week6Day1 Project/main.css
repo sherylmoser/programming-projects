@@ -5,14 +5,30 @@ html, head, body, div {
 body {
     background-color: #e3e5e6;
     color: black;
-    margin: 20px 50px;
+    margin: 20px 5%;
 }
-.darkMode {
+.darkMode, .darkMode button {
     background-color: #363838;
     color: white;
 }
+.darkMode .inStock {
+    background-color: #757878;
+    box-shadow: 5px 5px 5px #a8a7a7;
+}
 .inStock {
     background-color: white;
-    box-shadow: 5px 10px 8px #888888;
+    box-shadow: 5px 5px 5px #888888;
     border-radius: 5px;
+    width: auto;
+    padding-left: 5px;
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+.items {
+    width: 33%;
+    display: inline-block;
+}
+button {
+    font-size: 17px;
+    padding: 5px;
 }

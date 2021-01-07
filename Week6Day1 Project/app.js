@@ -69,7 +69,8 @@ const storeItems = [
 
 storeItems.forEach(function(item) {
     if (item.inStock === true) {
-        $('#itemList').append('<p class = "inStock">$' + item.price + ' ' + item.name + ' ' + item.details + '</p>');
+        $('#itemList').append('<div class = "inStock"><p class = "items">$' + item.price + 
+        '</p> <p class = "items">' + item.name + '</p> <p class = "items">' + item.details + '</p></div>');
     }
 })
 $('button').click(function(){

@@ -1,4 +1,4 @@
-html, head, body, div {
+html, head, body, div, {
     margin: 0;
     padding: 0;
 }
@@ -23,9 +23,10 @@ body {
     padding-left: 5px;
     margin-bottom: 10px;
     font-size: 17px;
+    box-sizing: border-box;
 }
 .items {
-    width: 33%;
+    width: 32%;
     display: inline-block;
 }
 button {

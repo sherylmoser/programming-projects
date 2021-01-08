@@ -1,0 +1,18 @@
+html, head, body, div {
+    margin: 0;
+    padding: 0;
+}
+#boxContainer {
+    width: 600px;
+    height: 600px;
+    position: center;
+    margin: 75px auto;
+    
+}
+.boxes  {
+    background-color: rgb(59, 57, 57);
+    margin: 10px;
+}
+.clickedBox {
+    background-color: darkgray;
+}

@@ -1,0 +1,41 @@
+html, head, body, div {
+    font-family: 'Raleway', sans-serif;
+    background-color: #ebeded;
+}
+#mainPost {
+    position: fixed;
+    top: 5px;
+    background-color: white;  
+}
+#inputDiv {
+    position: fixed;
+    bottom: 15px;
+}
+#displayName {
+    width: 100px;
+}
+#commentLine {
+    width: 700px;
+}
+button, #submitButton{
+    border: 0;
+    font-family: inherit;
+    background: none;
+    font-size: 1rem;
+    color: #0bd4cd;
+    cursor: pointer;
+}
+#commentsDiv {
+    width: 90%;
+    height: auto;
+    margin: 175px auto 0 auto;
+    background-color: #d9dbdb;
+}
+button {
+    float: right;
+}
+#singleComment {
+    background-color: #ebeded;
+    width: 90%;
+    margin: 10px auto;
+}
